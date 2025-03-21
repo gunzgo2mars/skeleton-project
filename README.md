@@ -4,8 +4,6 @@
 
 Standard project layout for every software.
 
-## Sequence Diagram
-
 ## 🏁 Getting Started
 
 ##### 🛠️ Prerequisites
@@ -24,10 +22,10 @@ Standard project layout for every software.
 
 ```bash
 # with ssh
-git clone git@github.com:erpbwdev/erp-ext-auth-service.git
+git clone git@github.com:{your-service}.git
 
 # with http (not recommanded)
-git clone https://github.com/erpbwdev/erp-ext-auth-service.git
+git clone https://github.com/{your-service}.git
 ```
 
 2. Install go dependencies.
@@ -95,6 +93,10 @@ make help
 
 1. Non-sensitive config like `PORT`, `ENV` and etc. should be declare in config.yaml file
 2. Sensitive config like `HOST`, `PASSWORD` and etc. should be declare in .env file
+
+## 📑 API Specs
+
+- [Questions api](./docs/apis/healthcheck.md)
 
 ## 🧪 Testing
 
