@@ -1,0 +1,10 @@
+app:
+  name: "skeleton-project"
+  port: "8192"
+
+log:
+  env: "local"
+
+mysql:
+  address: "local"
+  port: "3306"

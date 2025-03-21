@@ -62,31 +62,10 @@ make up
 docker-compose up -d
 ```
 
-<b>Terminate service:</b>
-
-```bash
-# terminate docker container (Makefile)
-make down
-
-# terminate docker container (docker compose cli)
-docker-compose down
-```
-
 <b>Makefile help list:</b>
 
 ```bash
 make help
-```
-
-<b>Sequence diagram:</b>
-
-1. Open vscode and then open uml script file in directory /docs
-2. Display step:
-
-```bash
-
-# MacOS -> Press [opt + D]
-# Windows -> Press [alt + D]
 ```
 
 ## ⚙️ Configuration
@@ -96,7 +75,9 @@ make help
 
 ## 📑 API Specs
 
-- [Questions api](./docs/apis/healthcheck.md)
+- [Healthcheck api](./docs/apis/healthcheck.md)
+- [Lorem api](./docs/apis/lorem.md)
+- [User api](./docs/apis/user.md)
 
 ## 🧪 Testing
 
